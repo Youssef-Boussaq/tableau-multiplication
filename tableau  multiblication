@@ -1,0 +1,5 @@
+def tab(a):
+    for i in range(0,10+1):
+        print(a,"*",i,"=",a*i)
+n =int(input("input number:"  ))
+print(tab(n))
